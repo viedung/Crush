@@ -1,0 +1,21 @@
+{
+  "hosting": {
+    "public": "out",
+    "site": "",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "nextServer2"
+      }
+    ]
+  },
+  "functions": {
+    "source": ".",
+    "runtime": "nodejs12"
+  }
+}
