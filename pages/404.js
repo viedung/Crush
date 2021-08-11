@@ -20,7 +20,7 @@ function Crush() {
     <div className="crush-box">
       <div className="title">
         <div>
-          Tuấn có
+          Dũng có
           <div className="color-porn-hub">
             <div> đẹp </div>
             <div> trai </div>
